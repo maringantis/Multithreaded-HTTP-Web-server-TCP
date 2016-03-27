@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Introduction to 207httpd</title>
+</head>
+<body>
+<img src="../img/sjsu.jpg">
+<h1>Introduction to 207httpd</h1>
+<p>
+<b>207httpd</b> is a simple, multi-threaded web server that can serve static
+HTML files and image files (.jpg and .gif).  It supports GET requests.  It also remaps
+/images/ in URL to htdoc/img/ on the HTTP server.
+</p>
+<p>
+To run 207httpd, use the command:<br>
+<pre>    ./207httpd port /path/to/htdoc</pre>
+</p>
+<p>
+Click <a href="../index.html"><img src="../img/home.gif" width=24 height=24></a> to go
+back to the home page.
+</p>
+</body>
+</html>
+
